@@ -5,6 +5,6 @@ function setup() {
 }
 
 function draw() {
-  station.draw()
   background(220);
+  station.draw()
 }

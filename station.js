@@ -8,7 +8,7 @@ class Station {
 
   }
   draw(){
-    ellipse(200, 200, 100, 100)
+    ellipse(this.x, this.y, this.population)
   }
 
 }
