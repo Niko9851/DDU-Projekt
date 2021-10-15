@@ -1,14 +1,13 @@
 class Station {
-  constructor(x, y){
+  constructor(x, y, id){
     this.x = x
     this.y = y
-    this.population = 100
+    this.size = 15
+    this.id = id
   }
   update(){
-
   }
   draw(){
-    ellipse(this.x, this.y, this.population)
+      ellipse(this.x, this.y, this.size)
   }
-
 }
